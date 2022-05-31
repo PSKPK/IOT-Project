@@ -160,7 +160,7 @@ void loop() {
 
     postData = "sendval=" + sendval + "&sendval2=" + sendval2;
 
-    http.begin(wifiClient, "http://192.168.161.118/IOT/dbwrite.php");              // Connect to host where MySQL databse is hosted
+    http.begin(wifiClient, "http://IP_OF_LOCALHOST_DEVICE/IOT/dbwrite.php");              // Connect to host where MySQL databse is hosted
     http.addHeader("Content-Type", "application/x-www-form-urlencoded");            //Specify content-type header
     
     Serial.println("Http begin done");
