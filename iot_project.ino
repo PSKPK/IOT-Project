@@ -11,8 +11,8 @@
 #include <WiFiClient.h>
 #include <ESP8266HTTPClient.h>
 
-#define WIFI_SSID "Galaxy M31s101E"            // WIFI SSID here                                   
-#define WIFI_PASSWORD "yjcq4191"        // WIFI password here
+#define WIFI_SSID "WIFI_SSID"            // WIFI SSID here                                   
+#define WIFI_PASSWORD "WIFI Password"        // WIFI password here
 
 Adafruit_MPU6050 mpu;
 sensors_event_t la, lg, ltemp;
